@@ -26,10 +26,11 @@
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.gallery img{width:100%;height:255px;object-fit:cover;border-radius:14px;box-shadow:0 8px 25px rgba(3,22,40,.10)}
 .band{background:linear-gradient(135deg,#041321,#0c3157);color:#fff;padding:54px 24px}.band-grid{max-width:1240px;margin:auto;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.feature{padding:10px 20px;border-right:1px solid rgba(255,255,255,.18)}.feature:last-child{border-right:0}.feature .ico{font-size:28px;color:var(--gold2)}.feature h3{margin:8px 0 5px;font-size:18px}.feature p{margin:0;color:#cbd9e4;line-height:1.5;font-size:14px}
 .contact{background:#fff}.contactbox{background:linear-gradient(135deg,#071b32,#0c3157);border-radius:22px;padding:44px;color:#fff;display:flex;align-items:center;gap:30px;justify-content:space-between;box-shadow:var(--shadow)}.contactbox h2{font-size:38px;margin:0 0 8px}.contactbox p{margin:0;color:#dce7f1;font-size:17px;line-height:1.5}.contactbox .btn{flex:0 0 auto}
+.reviews-section{background:#fff}.reviews-head{text-align:center;max-width:780px;margin:0 auto 30px}.reviews-head h2{color:var(--navy);font-size:clamp(32px,4vw,46px);margin:8px 0 10px}.reviews-head p{color:var(--muted);font-size:17px;line-height:1.55}.reviews-box{background:linear-gradient(135deg,#071b32,#0c3157);border-radius:22px;padding:36px;color:#fff;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;box-shadow:var(--shadow)}.reviews-brand{display:flex;gap:18px;align-items:flex-start}.reviews-g{width:54px;height:54px;border-radius:14px;background:#fff;color:#4285f4;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:900;flex:0 0 auto}.reviews-copy h3{margin:0 0 8px;font-size:26px}.reviews-copy p{margin:0;color:#dce7f1;line-height:1.55}.review-stars{letter-spacing:3px;color:#fbbc04;font-size:25px;margin:8px 0 0}.reviews-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}.reviews-actions .btn.alt-review{background:#fff;color:var(--navy);box-shadow:none}.reviews-note{font-size:13px;color:#b9cad7;margin-top:10px}
 .map-section{background:var(--bg)}.map-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:28px;align-items:stretch}.map-copy{background:linear-gradient(135deg,#071b32,#0c3157);color:#fff;border-radius:20px;padding:38px;display:flex;flex-direction:column;justify-content:center}.map-copy h2{font-size:36px;line-height:1.08;margin:8px 0 14px}.map-copy p{color:#dce7f1;line-height:1.6;margin:0 0 22px}.map-frame{min-height:410px;border-radius:20px;overflow:hidden;box-shadow:var(--shadow);border:1px solid #e0e7ee;background:#fff}.map-frame iframe{width:100%;height:100%;min-height:410px;border:0;display:block}.map-note{font-size:13px;color:#b9cad7;margin-top:16px}
 footer{background:#03101d;color:#9fb2c2;padding:30px 24px;text-align:center;font-size:14px}.float{position:fixed;right:20px;bottom:20px;z-index:60;background:var(--green);color:#fff;text-decoration:none;font-weight:900;border-radius:999px;padding:15px 18px;box-shadow:0 10px 26px rgba(0,0,0,.25)}
-@media(max-width:980px){.map-grid{grid-template-columns:1fr}.map-frame,.map-frame iframe{min-height:360px}.menu{display:none}.hero{min-height:620px}.hero:before{background:linear-gradient(90deg,rgba(5,23,43,.96),rgba(5,23,43,.72))}.services{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr}.portrait img{height:560px}.gallery{grid-template-columns:repeat(2,1fr)}.band-grid{grid-template-columns:repeat(2,1fr)}.feature:nth-child(2){border-right:0}.contactbox{flex-direction:column;align-items:flex-start}}
-@media(max-width:620px){.map-copy{padding:28px 22px}.map-copy h2{font-size:31px}.map-frame,.map-frame iframe{min-height:330px}.nav{padding:8px 14px}.logo img{height:55px}.nav>.btn{display:none}.hero{min-height:660px}.hero-inner{padding:70px 18px}.hero h1{font-size:49px}.hero .lead{font-size:19px}.hero p{font-size:16px}.section{padding:58px 16px}.services{grid-template-columns:1fr}.card .photo{height:230px}.portrait img{height:500px}.about h2{font-size:36px}.checks{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img{height:240px}.band-grid{grid-template-columns:1fr}.feature{border-right:0;border-bottom:1px solid rgba(255,255,255,.16);padding:14px 0}.feature:last-child{border-bottom:0}.contactbox{padding:30px 24px}.contactbox h2{font-size:31px}.float{right:12px;bottom:12px;padding:13px 15px}}
+@media(max-width:980px){.reviews-box{grid-template-columns:1fr}.reviews-actions{justify-content:flex-start}.map-grid{grid-template-columns:1fr}.map-frame,.map-frame iframe{min-height:360px}.menu{display:none}.hero{min-height:620px}.hero:before{background:linear-gradient(90deg,rgba(5,23,43,.96),rgba(5,23,43,.72))}.services{grid-template-columns:repeat(2,1fr)}.about{grid-template-columns:1fr}.portrait img{height:560px}.gallery{grid-template-columns:repeat(2,1fr)}.band-grid{grid-template-columns:repeat(2,1fr)}.feature:nth-child(2){border-right:0}.contactbox{flex-direction:column;align-items:flex-start}}
+@media(max-width:620px){.reviews-box{padding:28px 22px}.reviews-brand{flex-direction:column}.map-copy{padding:28px 22px}.map-copy h2{font-size:31px}.map-frame,.map-frame iframe{min-height:330px}.nav{padding:8px 14px}.logo img{height:55px}.nav>.btn{display:none}.hero{min-height:660px}.hero-inner{padding:70px 18px}.hero h1{font-size:49px}.hero .lead{font-size:19px}.hero p{font-size:16px}.section{padding:58px 16px}.services{grid-template-columns:1fr}.card .photo{height:230px}.portrait img{height:500px}.about h2{font-size:36px}.checks{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}.gallery img{height:240px}.band-grid{grid-template-columns:1fr}.feature{border-right:0;border-bottom:1px solid rgba(255,255,255,.16);padding:14px 0}.feature:last-child{border-bottom:0}.contactbox{padding:30px 24px}.contactbox h2{font-size:31px}.float{right:12px;bottom:12px;padding:13px 15px}}
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Electrician","name":"Luiz Moura Eletricista","url":"https://luizmouraeletricista.com.br/","telephone":"+55 15 99702-4260","areaServed":{"@type":"City","name":"Itapeva","addressRegion":"SP","addressCountry":"BR"},"image":"https://luizmouraeletricista.com.br/assets/logo-lm.webp","hasMap":"https://www.google.com/maps/search/?api=1&query=Luiz%20Moura%20Eletricista%20Itapeva%20SP"}</script>
 </head>
@@ -37,7 +38,7 @@ footer{background:#03101d;color:#9fb2c2;padding:30px 24px;text-align:center;font
 <header class="header">
   <nav class="nav">
     <a class="logo" href="#inicio" aria-label="Luiz Moura Eletricista"><img src="assets/logo-lm.webp" alt="Logo Luiz Moura Eletricista"></a>
-    <div class="menu"><a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a href="#trabalhos">Trabalhos</a><a href="#mapa">Mapa</a><a href="#contato">Contato</a></div>
+    <div class="menu"><a href="#inicio">Início</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a href="#trabalhos">Trabalhos</a><a href="#avaliacoes">Avaliações</a><a href="#mapa">Mapa</a><a href="#contato">Contato</a></div>
     <a class="btn" href="https://wa.me/5515997024260?text=Olá%20Luiz%20Moura,%20vim%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20orçamento." target="_blank" rel="noopener">WhatsApp • Orçamento</a>
   </nav>
 </header>
@@ -83,6 +84,29 @@ footer{background:#03101d;color:#9fb2c2;padding:30px 24px;text-align:center;font
   <div class="feature"><div class="ico">✓</div><h3>Segurança em primeiro lugar</h3><p>Execução com procedimentos e boas práticas técnicas.</p></div>
   <div class="feature"><div class="ico">◆</div><h3>Qualidade e durabilidade</h3><p>Organização, materiais adequados e execução responsável.</p></div>
   <div class="feature"><div class="ico">⌖</div><h3>Itapeva-SP e região</h3><p>Atendimento local e regional conforme disponibilidade.</p></div>
+</div></section>
+
+<section class="section reviews-section" id="avaliacoes"><div class="wrap">
+  <div class="reviews-head">
+    <div class="kicker">Avaliações no Google</div>
+    <h2>Veja a opinião de quem já contratou</h2>
+    <p>Consulte as avaliações públicas do Luiz Moura Eletricista no Google e compartilhe sua experiência após o atendimento.</p>
+  </div>
+  <div class="reviews-box">
+    <div class="reviews-brand">
+      <div class="reviews-g" aria-hidden="true">G</div>
+      <div class="reviews-copy">
+        <h3>Luiz Moura Eletricista no Google</h3>
+        <p>As avaliações exibidas no Google são públicas e podem ser consultadas diretamente pelo perfil da empresa.</p>
+        <div class="review-stars" aria-label="Avaliações no Google">★★★★★</div>
+        <div class="reviews-note">As estrelas acima identificam a seção de avaliações e não representam uma nota média enquanto o perfil oficial ainda não estiver conectado ao site.</div>
+      </div>
+    </div>
+    <div class="reviews-actions">
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Luiz%20Moura%20Eletricista%20Itapeva%20SP" target="_blank" rel="noopener">Ver avaliações no Google</a>
+      <a class="btn alt-review" href="https://www.google.com/search?q=Luiz+Moura+Eletricista+Itapeva+SP" target="_blank" rel="noopener">Avaliar no Google</a>
+    </div>
+  </div>
 </div></section>
 
 <section class="section map-section" id="mapa"><div class="wrap">
