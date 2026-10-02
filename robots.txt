@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://luizmouraeletricista.com.br/sitemap.xml
